@@ -1,0 +1,40 @@
+# Dependencies and build output
+**/node_modules/
+**/dist/
+**/.next/
+**/.vinext/
+**/.wrangler/
+**/coverage/
+/desktop/src-tauri/target/
+/releases/
+*.tsbuildinfo
+
+# Local application and tool state
+**/outputs/
+**/work/
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Local configuration and credentials
+**/.env
+**/.env.*
+!**/.env.example
+**/.openai/
+*.pem
+*.key
+*.p12
+*.mobileprovision
+
+# Calendar data and network captures may contain credentials or personal data
+*.ics
+*.har
+*.mitm
+*.mitmproxy
+*.pcap
+*.pcapng
+**/flows*
